@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+        <title>pilgrimage &mdash; Your sacred-site review app</title>
+    </head>
+    <body>
+        <div class="container">
+          <header class="header">
+            <h2 class="logo">pilgrimage</h2>
+            <form action="#" class="search">
+              <input type="text" class="search__input" placeholder="Search sacred sites">
+              <button class="search__button">
+                <svg class="search__icon">
+                  <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                </svg>
+              </button>
+            </form>
+            <nav class="user-nav">
+              <div class="user-nav__icon-box">
+                <div class="user-nav__item">
+                  <svg class="user-nav__icon">
+                    <use xlink:href="img/sprite.svg#icon-globe" class="user-nav__icon"></use>
+                    <span class="user-nav__notification">15</span>
+                  </svg>
+                </div>
+              </div>
+              <div class="user-nav__icon-box">
+                <div class="user-nav__item">
+                  <svg class="user-nav__icon">
+                    <use xlink:href="img/sprite.svg#icon-chat" class="user-nav__icon"></use>
+                    <span class="user-nav__notification">7</span>
+                  </svg>
+                </div>
+              </div>
+              <div class="user-nav__user">
+                <img src="img/user.jpg" alt="User photo" class="user-nav__user-photo">
+                <span class="user-nav__user-name">Patrick</span>
+              </div>
+            </nav>
+          </header>
+          <div class="content">
+            <nav class="sidebar">
+              <ul class="side-nav">
+                <li class="side-nav__item side-nav__item--active">
+                  <a href="#" class="side-nav__link">Machu Picchu</a>
+                </li>
+                <li class="side-nav__item">
+                  <a href="#" class="side-nav__link">Sedonna</a>
+                </li>
+                <li class="side-nav__item">
+                  <a href="#" class="side-nav__link">Stonehenge</a>
+                </li>
+                <li class="side-nav__item">
+                  <a href="#" class="side-nav__link">Great Pyramid</a>
+                </li>
+              </ul>
+              <div class="legal">
+                &copy; 2017 Pilgrimage. All rights reserved.
+              </div>
+            </nav>
+            <main class="sacred-site-view">
+              <div class="gallery">
+                <figure class="gallery__item">
+                  <img src="img/site-1.jpg" alt="Photo of site 1" class="gallery__photo gallery__photo--1">
+                </figure>
+                <figure class="gallery__item">
+                  <img src="img/site-3.jpg" alt="Photo of site 3" class="gallery__photo gallery__photo--3">
+                </figure>
+                <figure class="gallery__item">
+                  <img src="img/site-2.jpg" alt="Photo of site 2" class="gallery__photo gallery__photo--2">
+                </figure>
+              </div>
+
+              <div class="overview">
+                <h1 class="overview__heading">
+                  Machu Picchu
+                </h1>
+                <div class="overview__stars">
+                  <svg class="overview__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="overview__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="overview__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="overview__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>
+                  <svg class="overview__icon-star">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                  </svg>  
+                </div>
+
+                <div class="overview__location">
+                  <svg class="overview__icon-location">
+                    <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                  </svg>
+                  <button class="btn-inline">Cuzco Region, Peru</button>
+                </div>
+
+                <div class="overview__rating">
+                  <div class="overview__rating-average">8.6</div>
+                  <div class="overview__rating-count">429 votes</div>
+                </div>
+              </div>
+
+              <div class="detail">
+                <div class="description">
+                  <p class="paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium
+                    cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
+                  </p>
+                  <p class="paragraph">
+                    Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
+                  </p>
+                  <ul class="list">
+                    <li class="list__item">Beautifully constructed</li>
+                    <li class="list__item">Breathtaking</li>
+                    <li class="list__item">Spiritual connection</li>
+                    <li class="list__item">Amazing sites</li>
+                  </ul>
+                  <div class="recommend">
+                    <div class="recommend__count">
+                      Many happy reviews
+                    </div>
+                    <div class="recommend__friends">
+                      <img src="img/user-3.jpg" alt="friend 1" class="recommend__photo">
+                      <img src="img/user-4.jpg" alt="friend 2" class="recommend__photo">
+                      <img src="img/user-5.jpg" alt="friend 3" class="recommend__photo">
+                    </div>
+                  </div>
+                </div>
+                <div class="user-reviews">
+                  <figure class="review">
+                    <blockquote class="review__text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia
+                      ex.
+                    </blockquote>
+                    <figcaption class="review__user">
+                      <img src="img/user-1.jpg" alt="User 1" class="review__photo">
+                      <div class="review__user-box">
+                        <p class="review__user-name">Somaya Bounouar</p>
+                        <p class="review__user-date">Feb 23rd, 2017</p>
+                      </div>
+                      <div class="review__rating">6.7</div>
+                    </figcaption>
+                  </figure>
+                  <figure class="review">
+                    <blockquote class="review__text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi.
+                    </blockquote>
+                    <figcaption class="review__user">
+                      <img src="img/user-2.jpg" alt="User 1" class="review__photo">
+                      <div class="review__user-box">
+                        <p class="review__user-name">Michael Masterson</p>
+                        <p class="review__user-date">Mar 13th, 2017</p>
+                      </div>
+                      <div class="review__rating">8.9</div>
+                    </figcaption>
+                  </figure>
+                  <button class="btn-inline">Show all <span>&rarr;</span></button>
+                </div>
+              </div>
+              <div class="cta">
+                <h2 class="cta__book-now">
+                  Explore other sacred sites!
+                </h2>
+                <button class="btn">
+                  <span class="btn__visible">Suprise me!</span>
+                  <span class="btn__hidden">Choose a random site</span>
+                </button>
+              </div>
+            </main>
+          </div>
+        </div>
+    </body>
+</html>
